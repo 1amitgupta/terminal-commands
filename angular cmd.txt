@@ -1,0 +1,23 @@
+Angular CLI Commands
+=====================
+
+#Build for production and minify source code
+	ng build --prod --optimization=true
+	ng build --optimization=true
+
+# Build with cross origin
+	ng build --cross-origin use-credentials
+
+
+# Link the node modules
+	npm link
+	
+	
+#Stop angular analytics
+	ng analytics off
+	
+	
+# Change the default style extension 
+	ng config defaults.styleExt=scss
+	ng config schematics.@schematics/angular:component.styleext scss
+	ng config schematics.@schematics/angular:component.styleext scss

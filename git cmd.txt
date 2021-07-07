@@ -1,0 +1,36 @@
+# Remove git cache
+	- git rm --cache -r .vscode
+	** -r stands for recursive
+ 
+# Push files to forcefully
+
+	- git push --force -u origin main
+
+# Configure your Git username/email
+
+	- Global
+	- git config --global user.name "User Name"
+	- git config --global user.email "useemailaddress@gmail.com"
+	
+	- Only project specific
+	- git config user.name "User Name"
+	- git config user.email "useemailaddress@gmail.com"
+	
+	
+==============================================================
+
+# create a new repository on the command line
+
+	- echo "# repository-name" >> README.md
+	- git init
+	- git add README.md
+	- git commit -m "first commit"
+	- git branch -M main
+	- git remote add origin https://github.com/username/repository-utl
+	- git push -u origin main
+	
+# push an existing repository from the command line
+
+	- git remote add origin https://github.com/username/repository-utl
+	- git branch -M main
+	- git push -u origin main
